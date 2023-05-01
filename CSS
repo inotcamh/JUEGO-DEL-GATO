@@ -1,0 +1,50 @@
+.grid {
+    display: grid;
+    grid-template-areas:
+    "a b c"
+    "d e f"
+    "g h i";
+    justify-content: center;
+    align-items: center;
+}
+
+.grid div {
+    background: #ffffff;
+    height: 180px;
+    width: 180px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 80px;
+    color: #000000;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ 
+
+body{
+    height: 100vh;
+    background: linear-gradient(135deg, #b499df, #7e3bb4);
+}
+    
+button {
+    padding: 20px;
+    font-size: 30px;
+    background: white;
+    box-shadow: 0;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+
+  
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
